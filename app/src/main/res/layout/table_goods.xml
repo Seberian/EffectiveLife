@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/best_before_show"
+        tools:text="20.12.2019"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/amount_of_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/best_before_show"
+        android:paddingRight="50dp"
+        tools:text="25" />
+
+    <TextView
+        android:id="@+id/name_of_product_show"
+        tools:text="Хлеб Бородинский"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/amount_of_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EffectiveLife</string>
+    <string name="amount_of_goods1">1</string>
+    <string name="best_before_goods1">01.01.2020</string>
+    <string name="name_of_goods1">Батон Бородинский</string>
+    <string name="show_dialog">Показать календарь</string>
+    <string name="customize">Customize</string>
+    <string name="undo">Customize</string>
+</resources>
